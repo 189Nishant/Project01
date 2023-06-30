@@ -1,0 +1,163 @@
+/* nav bar of body */
+
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik', sans-serif;
+margin: 0;
+}
+
+#navBar{
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+}
+#navBar>.left{
+    font-size:14px;
+}
+#navBar>.right{
+    font-size:14px;
+}
+.left{
+    display:flex;
+}
+.left>a{
+    margin: 10px;
+    margin-top: 2.5%;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.left>a:hover{
+    border-bottom: 1px solid red;
+}
+.left>img{
+    width:12%;
+    height: 50px;
+    margin: 10px;
+}
+.right{
+    display:flex;
+    margin-top: 0.5%;
+}
+.right>img{
+    width:30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+   /* mid part of body */
+#secounddiv{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+#secounddiv>div{
+    border: 1px solid #f6f6f6;
+    padding: 10px;
+    height: 500px;
+}
+#secounddiv>div>img{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+#secounddiv>div>p:nth-child(3){
+    color: grey;
+}
+#secounddiv>div>p:nth-child(5){
+    color: grey;
+}
+#maindiv{
+    text-align: center;
+}
+
+#buttonpay{
+     border: 0;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/* bootam part of body */
+
+
+
+
+#mainabout{
+    width:70%;
+    margin:auto;
+    margin-top:50px;
+    padding: 50px 0;
+    border-top: 0.5px solid #8e8e8e;
+    display: flex;
+    gap: 100px;
+}
+#about1{
+    width: 100%;
+}
+.header{
+    margin-bottom: 1rem;
+    font-size: 1.1em;
+    line-height: 18px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+.contact{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.contact>li>a{
+    line-height: 1.7em;
+    color: #7f7f7f;
+    text-decoration: none;
+}
+.contact>li>a:hover{
+    border-bottom: 1px solid #7f7f7f;
+}
+.contact>li>a>img{
+   width: 15%;
+}
+#secoundabout{
+    width:70%;
+    margin:auto;
+    margin-top:50px;
+    padding: 50px 0;
+    border-top: 0.5px solid #8e8e8e;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.div1>img{
+    width:5%;
+    margin:5px;
+}
+.div1{
+    display: flex;
+}
+.div2{
+    width: 25%;
+}
+.div2>img{
+    width: 15%;
+    cursor: pointer;
+}

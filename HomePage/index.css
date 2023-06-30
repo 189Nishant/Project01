@@ -1,0 +1,300 @@
+
+  /* navBar of web sites */
+
+  body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik', sans-serif;
+margin: 0;
+}
+
+#navBar{
+    display:flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+#navBar>.left{
+    font-size:14px;
+}
+#navBar>.right{
+    font-size:14px;
+}
+.left{
+    display:flex;
+}
+.left>a{
+    margin: 10px;
+    margin-top: 2.5%;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.left>a:hover{
+    border-bottom: 1px solid red;
+}
+.left>img{
+    width:12%;
+    height: 50px;
+    margin: 10px;
+}
+.right{
+    display:flex;
+    margin-top: 0.5%;
+}
+.right>img{
+    width:30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+  /* mid-Part of web sites */
+
+
+
+
+#firstimg{
+    border: 1px solid white;
+    margin: auto;
+    width: 70%;
+    background-image: url("	https://modesens.com/banner/10921/getimg/?img=%2Fbanner%2F20220214-modesens-prada-1140x400-F.jpg");
+    height:400px;
+}
+#firstimg>p{
+    color: #fff;
+    font-size: 40px;
+    margin: 100px;
+}
+#firstimg>a{
+    color: #fff;
+    margin: 100px;
+    cursor: pointer;
+}
+#secounddiv{
+    text-align: center;
+    width: 70%;
+    margin:auto;
+}
+#secounddiv>p{
+    color: grey;
+}
+#thirddiv{
+    width: 70%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+}
+#thirddiv>img{
+    width: 100%;
+}
+#fourthdiv{
+    width: 70%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+#fourthdiv>div>img{
+    width: 100%;
+}
+#fourthdiv>div>button{
+    padding: 5px;
+    font-size:17px;
+    background-color:white;
+    cursor: pointer;
+}
+#midname{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.71rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#fivediv{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+#fivediv>div{
+   text-align: center;
+}
+#fivediv>div>img{
+    border-radius: 50%;
+    width: 70%;
+}
+#midname2{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.71rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#divsix{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+#divsix>div{
+    border: 1px solid #f6f6f6;
+    padding: 10px;
+}
+#divsix>div>img{
+    width: 100%;
+}
+#divsix>div>p:nth-child(3){
+    color: grey;
+}
+#divsix>div>p:nth-child(5){
+    color: grey;
+}
+#btn1{
+    font-size:18px;
+    padding:5px;
+    color:white;
+    background-color:black;
+    border: 0;
+    cursor: pointer;
+}
+#midname3{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.71rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#sevendiv{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+#sevendiv>div{
+    border: 1px solid #f6f6f6;
+    padding: 10px;
+}
+#sevendiv>div>img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+#eightdiv{
+    background-color:#f8f7f6;
+    display:flex;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#eightdiv>div{
+    display:grid;
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+}
+#eightdiv>div>img{
+    max-width: 200px;
+    margin-left: 15%;
+    padding:10px
+}
+#eightdiv>div>button{
+    background-color:black;
+    color:white;
+    width:40%;
+    font-size: 18px;
+    height:40px;
+    margin:auto;
+    border:0;
+    cursor: pointer;
+}
+
+
+
+
+/* bottam web sites deisgn */
+
+
+
+#mainabout{
+    width:70%;
+    margin:auto;
+    margin-top:50px;
+    padding: 50px 0;
+    border-top: 0.5px solid #8e8e8e;
+    display: flex;
+    gap: 100px;
+}
+#about1{
+    width: 100%;
+}
+.header{
+    margin-bottom: 1rem;
+    font-size: 1.1em;
+    line-height: 18px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+.contact{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.contact>li>a{
+    line-height: 1.7em;
+    color: #7f7f7f;
+    text-decoration: none;
+}
+.contact>li>a:hover{
+    border-bottom: 1px solid #7f7f7f;
+}
+.contact>li>a>img{
+   width: 15%;
+}
+#secoundabout{
+    width:70%;
+    margin:auto;
+    margin-top:50px;
+    padding: 50px 0;
+    border-top: 0.5px solid #8e8e8e;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.div1>img{
+    width:5%;
+    margin:5px;
+}
+.div1{
+    display: flex;
+}
+.div2{
+    width: 25%;
+}
+.div2>img{
+    width: 15%;
+    cursor: pointer;
+}
